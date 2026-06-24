@@ -171,7 +171,12 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img loading="lazy" src="./assets/images/camera.webp" width="627" height="626">
+			<picture>
+					<source
+    				media="(max-width: 650px)"
+    				srcset="./assets/images/camera-mobile.webp">			
+				<img loading="lazy" src="./assets/images/camera.webp" width="627" height="626">
+			</picture>
 		</div>
 	</div>
 </div>
