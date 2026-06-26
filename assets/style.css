@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter-v20-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter-v20-latin-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter-v20-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('./fonts/spectral-v15-latin-300italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('./fonts/spectral-v15-latin-800italic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  src: url('./fonts/spectral-v15-latin-800.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -20,6 +68,10 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 .nav ul {
@@ -266,7 +318,7 @@ input[type="submit"] {
 font-size: 1.5rem;
 margin-top: 0;
 margin-bottom: .5rem;
-font-weight: 500;
+font-weight: 400;
 line-height: 1.2;
 }
 
@@ -288,7 +340,7 @@ font-size: 1.75rem;
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+ 	#about-me p {
 		width: 100%;
 	}
 }
