@@ -81,11 +81,14 @@ body {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	width: 60%;
+#about-me .about-me__introduction {
+    font-family: 'Spectral';
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: italic;
+    width: 60%;
+	margin-bottom: .5rem;
+	line-height: 1.2;
 }
 #about-me p {
 	width: 80%;
@@ -98,6 +101,7 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 .gallery .nav {
 	justify-content: center;
@@ -149,7 +153,10 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
+	line-height: 1.2;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
 }
 .quote__author {
 	font-family: Spectral;
@@ -255,6 +262,21 @@ input[type="submit"] {
   object-fit: cover;
 }
 
+.service__price span {
+font-size: 1.5rem;
+margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+}
+
+.form-container h2 {
+font-size: 1.75rem;	
+
+}
+
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -328,6 +350,7 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+
 }
 
 @media all and (max-width: 650px) {
