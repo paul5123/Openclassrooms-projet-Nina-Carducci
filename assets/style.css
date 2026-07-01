@@ -159,7 +159,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -324,10 +324,7 @@ line-height: 1.2;
 
 .form-container h2 {
 font-size: 1.75rem;	
-
 }
-
-
 
 @media all and (max-width: 1180px) {
 	.picture {
